@@ -1,3 +1,4 @@
+import { axios } from "../../shared/axios";
 import { getDataFromStore } from "../../store/getStore";
 
 export const getToken = (section)=>{
